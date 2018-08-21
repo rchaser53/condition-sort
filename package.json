@@ -1,10 +1,10 @@
 {
-  "name": "condition-sort",
+  "name": "order-by-ordered-array",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --no-cache"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,11 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rchaser53/condition-sort/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.4.2",
+    "typescript": "^3.0.1"
   },
   "homepage": "https://github.com/rchaser53/condition-sort#readme"
 }
